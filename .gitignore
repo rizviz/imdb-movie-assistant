@@ -1,4 +1,5 @@
 .env
+_interview_prep/
 __pycache__/
 *.pyc
 .venv/

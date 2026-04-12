@@ -1,0 +1,55 @@
+========================================
+SANITY CHECKS (pytest)
+Timestamp: Sun Apr 12 14:36:07 CDT 2026
+========================================
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-8.4.2, pluggy-1.6.0 -- /Users/zee/Downloads/_real_page/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/zee/Downloads/_real_page
+plugins: anyio-4.12.1
+collecting ... collected 22 items
+
+tests/sanity_checks.py::TestDataQuality::test_dataframe_loaded PASSED    [  4%]
+tests/sanity_checks.py::TestDataQuality::test_released_year_numeric PASSED [  9%]
+tests/sanity_checks.py::TestDataQuality::test_gross_preserves_nan PASSED [ 13%]
+tests/sanity_checks.py::TestDataQuality::test_has_gross_boolean PASSED   [ 18%]
+tests/sanity_checks.py::TestDataQuality::test_genre_list_populated PASSED [ 22%]
+tests/sanity_checks.py::TestDataQuality::test_cast_list_populated PASSED [ 27%]
+tests/sanity_checks.py::TestDataQuality::test_lead_actor_set PASSED      [ 31%]
+tests/sanity_checks.py::TestDataQuality::test_runtime_numeric PASSED     [ 36%]
+tests/sanity_checks.py::TestDataQuality::test_text_for_embedding PASSED  [ 40%]
+tests/sanity_checks.py::TestStructuredQueries::test_q1_matrix_release_year PASSED [ 45%]
+tests/sanity_checks.py::TestStructuredQueries::test_q2_top5_2019_metascore PASSED [ 50%]
+tests/sanity_checks.py::TestStructuredQueries::test_q3_top7_comedy_2010_2020 PASSED [ 54%]
+tests/sanity_checks.py::TestStructuredQueries::test_q4_horror_threshold PASSED [ 59%]
+tests/sanity_checks.py::TestStructuredQueries::test_q5_directors_gross_500m PASSED [ 63%]
+tests/sanity_checks.py::TestStructuredQueries::test_q6_high_votes_low_gross PASSED [ 68%]
+tests/sanity_checks.py::TestStructuredQueries::test_fuzzy_title_match PASSED [ 72%]
+tests/sanity_checks.py::TestStructuredQueries::test_movie_not_found PASSED [ 77%]
+tests/sanity_checks.py::TestStructuredQueries::test_al_pacino_filter PASSED [ 81%]
+tests/sanity_checks.py::TestEdgeCases::test_empty_genre_filter PASSED    [ 86%]
+tests/sanity_checks.py::TestEdgeCases::test_year_range_no_results PASSED [ 90%]
+tests/sanity_checks.py::TestEdgeCases::test_gross_filter_with_nulls PASSED [ 95%]
+tests/sanity_checks.py::TestEdgeCases::test_single_year_lookup PASSED    [100%]
+
+============================== 22 passed in 0.47s ==============================
+
+========================================
+END-TO-END EVALUATION RESULTS
+========================================
+{
+  "total": 10,
+  "passed": 10,
+  "failed": 0,
+  "pass_rate": "100%"
+}
+Q1: PASS — lookup (0.9s)
+Q2: PASS — structured (0.8s)
+Q3: PASS — structured (1.07s)
+Q4: PASS — structured (1.06s)
+Q5: PASS — director_aggregation (0.87s)
+Q6: PASS — structured (0.91s)
+Q7: PASS — semantic (1.11s)
+Q8: PASS — hybrid (5.07s)
+Q9: PASS — semantic (0.83s)
+NH1: PASS — clarification (1.16s)

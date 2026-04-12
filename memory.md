@@ -66,6 +66,18 @@
   - 4 edge case tests (empty genre, no-result year, gross nulls, single year)
 - [x] 10 end-to-end eval questions: ALL PASSING (100%)
 
+### Step 9: Voice Layer (v2) ✅
+- [x] Created `src/voice.py` with Whisper STT + TTS wrapper
+- [x] `transcribe_audio()` — sends audio bytes to Whisper API
+- [x] `text_to_speech()` — converts text to MP3 via TTS API (`tts-1`, voice `alloy`)
+- [x] `generate_spoken_summary()` — condenses markdown tables/lists to 2-3 TTS-friendly sentences
+- [x] Updated `app.py` with `st.audio_input()` mic widget + `st.audio()` playback
+- [x] Voice toggle in sidebar (on by default)
+- [x] Voice input prefixed with 🎤 emoji in chat for visibility
+- [x] Empty/silent recording → graceful warning message
+- [x] Regression test: 22/22 sanity checks still passing after voice changes
+- [x] TTS API verified: returns valid MP3 audio bytes
+
 ---
 
 ## Mistakes & Lessons Learned
@@ -75,6 +87,8 @@
 2. **Q8 eval false-negative**: The LLM summary for Spielberg sci-fi movies didn't repeat "Spielberg" in the response text, causing the eval to flag it as a failure even though the content was correct. Fixed by removing the string-match check for the director name.
 
 3. **NH1 routing expectation**: Initially expected `actor_filter` response type, but the router correctly triggers clarification first (as the assignment requires). Fixed eval to expect `clarification`.
+
+4. **Voice module is pure I/O wrapper**: No changes needed to any query pipeline code. The voice layer just wraps the existing `route_query()` — transcribe → feed text → format spoken summary → play back. Zero regressions.
 
 ---
 

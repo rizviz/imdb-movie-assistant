@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+vectorstore/faiss_index/
+.DS_Store
+*.egg-info/
+dist/
+build/

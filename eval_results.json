@@ -1,0 +1,140 @@
+{
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "pass_rate": "100%"
+  },
+  "results": [
+    {
+      "id": "Q1",
+      "question": "When did The Matrix release?",
+      "status": "PASS",
+      "query_type": "lookup",
+      "expected_type": "lookup",
+      "type_match": true,
+      "content_match": true,
+      "has_content": true,
+      "elapsed_seconds": 0.9,
+      "response_preview": "\ud83c\udfac **The Matrix** was released in **1999**.\n\n---\n**\ud83d\udd0d Reasoning:** Found exact match for \"The Matrix\" in the dataset.\n\n*\ud83d\udccb Answered via structured query*",
+      "full_response": "\ud83c\udfac **The Matrix** was released in **1999**.\n\n---\n**\ud83d\udd0d Reasoning:** Found exact match for \"The Matrix\" in the dataset.\n\n*\ud83d\udccb Answered via structured query*"
+    },
+    {
+      "id": "Q2",
+      "question": "What are the top 5 movies of 2019 by meta score?",
+      "status": "PASS",
+      "query_type": "structured",
+      "expected_type": "structured",
+      "type_match": true,
+      "content_match": true,
+      "has_content": true,
+      "elapsed_seconds": 0.8,
+      "response_preview": "Found **23** matching movies (showing top 5):\n| # | Title | Year | IMDB | Meta | Genre |\n|---|-------|------|------|------|-------|\n| 1 | Gisaengchung | 2019 | 8.6 | 96.0 | Comedy, Drama, Thriller |\n| 2 | Portrait de la jeune fille en feu | 2019 | 8.1 | 95.0 | Drama, Romance |\n| 3 | The Irishman | 2019 | 7.9 | 94.0 | Biography, Crime, Drama |\n| 4 | Marriage Story | 2019 | 7.9 | 94.0 | Comedy, Drama, Romance |\n| 5 | Little Women | 2019 | 7.8 | 91.0 | Drama, Romance |\n\n**Gross Earnings:**\n- Gisaengchung: $53,367,844\n- Portrait de la jeune fille en feu: $3,759,854\n- The Irishman: $7,000,000\n- Marriage Story: $2,000,000\n- Little Women: $108,101,214\n\n\n---\n**\ud83d\udd0d Reasoning:** Filtered 1,000 movies with criteria (year=2019). Found 23 matching results, ranked by score.\n\n*\ud83d\udccb Answered via structured query*\n\n\ud83d\udca1 **You might also like:** **Inside Out** (2015) \u2014 IMDB 8.1, Meta 94.0, **The Man Who Shot Liberty Valance** (1962) \u2014 IMDB 8.1, Meta 94.0, **La La Land** (2016) \u2014 IMDB 8.0, Meta 94.0",
+      "full_response": "Found **23** matching movies (showing top 5):\n| # | Title | Year | IMDB | Meta | Genre |\n|---|-------|------|------|------|-------|\n| 1 | Gisaengchung | 2019 | 8.6 | 96.0 | Comedy, Drama, Thriller |\n| 2 | Portrait de la jeune fille en feu | 2019 | 8.1 | 95.0 | Drama, Romance |\n| 3 | The Irishman | 2019 | 7.9 | 94.0 | Biography, Crime, Drama |\n| 4 | Marriage Story | 2019 | 7.9 | 94.0 | Comedy, Drama, Romance |\n| 5 | Little Women | 2019 | 7.8 | 91.0 | Drama, Romance |\n\n**Gross Earnings:**\n- Gisaengchung: $53,367,844\n- Portrait de la jeune fille en feu: $3,759,854\n- The Irishman: $7,000,000\n- Marriage Story: $2,000,000\n- Little Women: $108,101,214\n\n\n---\n**\ud83d\udd0d Reasoning:** Filtered 1,000 movies with criteria (year=2019). Found 23 matching results, ranked by score.\n\n*\ud83d\udccb Answered via structured query*\n\n\ud83d\udca1 **You might also like:** **Inside Out** (2015) \u2014 IMDB 8.1, Meta 94.0, **The Man Who Shot Liberty Valance** (1962) \u2014 IMDB 8.1, Meta 94.0, **La La Land** (2016) \u2014 IMDB 8.0, Meta 94.0"
+    },
+    {
+      "id": "Q3",
+      "question": "Top 7 comedy movies between 2010-2020 by IMDB rating?",
+      "status": "PASS",
+      "query_type": "structured",
+      "expected_type": "structured",
+      "type_match": true,
+      "content_match": true,
+      "has_content": true,
+      "elapsed_seconds": 1.07,
+      "response_preview": "Found **64** matching movies (showing top 7):\n| # | Title | Year | IMDB | Meta | Genre |\n|---|-------|------|------|------|-------|\n| 1 | Gisaengchung | 2019 | 8.6 | 96.0 | Comedy, Drama, Thriller |\n| 2 | The Intouchables | 2011 | 8.5 | 57.0 | Biography, Comedy, Drama |\n| 3 | Chhichhore | 2019 | 8.2 | None | Comedy, Drama |\n| 4 | Green Book | 2018 | 8.2 | 69.0 | Biography, Comedy, Drama |\n| 5 | Three Billboards Outside Ebbing, Missouri | 2017 | 8.2 | 88.0 | Comedy, Crime, Drama |\n| 6 | Klaus | 2019 | 8.2 | 65.0 | Animation, Adventure, Comedy |\n| 7 | Queen | 2013 | 8.2 | None | Adventure, Comedy, Drama |\n\n**Gross Earnings:**\n- Gisaengchung: $53,367,844\n- The Intouchables: $13,182,281\n- Chhichhore: $898,575\n- Green Book: $85,080,171\n- Three Billboards Outside Ebbing, Missouri: $54,513,740\n- Queen: $1,429,534\n\n\n---\n**\ud83d\udd0d Reasoning:** Filtered 1,000 movies with criteria (year range 2010\u20132020, genre=Comedy). Found 64 matching results, ranked by score.\n\n*\ud83d\udccb Answered via structured query*\n\n\ud83d\udca1 **Y",
+      "full_response": "Found **64** matching movies (showing top 7):\n| # | Title | Year | IMDB | Meta | Genre |\n|---|-------|------|------|------|-------|\n| 1 | Gisaengchung | 2019 | 8.6 | 96.0 | Comedy, Drama, Thriller |\n| 2 | The Intouchables | 2011 | 8.5 | 57.0 | Biography, Comedy, Drama |\n| 3 | Chhichhore | 2019 | 8.2 | None | Comedy, Drama |\n| 4 | Green Book | 2018 | 8.2 | 69.0 | Biography, Comedy, Drama |\n| 5 | Three Billboards Outside Ebbing, Missouri | 2017 | 8.2 | 88.0 | Comedy, Crime, Drama |\n| 6 | Klaus | 2019 | 8.2 | 65.0 | Animation, Adventure, Comedy |\n| 7 | Queen | 2013 | 8.2 | None | Adventure, Comedy, Drama |\n\n**Gross Earnings:**\n- Gisaengchung: $53,367,844\n- The Intouchables: $13,182,281\n- Chhichhore: $898,575\n- Green Book: $85,080,171\n- Three Billboards Outside Ebbing, Missouri: $54,513,740\n- Queen: $1,429,534\n\n\n---\n**\ud83d\udd0d Reasoning:** Filtered 1,000 movies with criteria (year range 2010\u20132020, genre=Comedy). Found 64 matching results, ranked by score.\n\n*\ud83d\udccb Answered via structured query*\n\n\ud83d\udca1 **You might also like:** **Capharna\u00c3\u00bcm** (2018) \u2014 IMDB 8.4, Meta 75.0, **Full Metal Jacket** (1987) \u2014 IMDB 8.3, Meta 76.0, **Per qualche dollaro in pi\u00c3\u00b9** (1965) \u2014 IMDB 8.3, Meta 74.0"
+    },
+    {
+      "id": "Q4",
+      "question": "Top horror movies with a meta score above 85 and IMDB rating above 8",
+      "status": "PASS",
+      "query_type": "structured",
+      "expected_type": "structured",
+      "type_match": true,
+      "content_match": true,
+      "has_content": true,
+      "elapsed_seconds": 1.06,
+      "response_preview": "Found **3** matching movies:\n| # | Title | Year | IMDB | Meta | Genre |\n|---|-------|------|------|------|-------|\n| 1 | Psycho | 1960 | 8.5 | 97.0 | Horror, Mystery, Thriller |\n| 2 | Rosemary's Baby | 1968 | 8.0 | 96.0 | Drama, Horror |\n| 3 | Alien | 1979 | 8.4 | 89.0 | Horror, Sci-Fi |\n\n**Gross Earnings:**\n- Psycho: $32,000,000\n- Alien: $78,900,000\n\n\n---\n**\ud83d\udd0d Reasoning:** Filtered 1,000 movies with criteria (genre=Horror, meta_score\u226585, imdb_rating\u22658). Found 3 matching results, ranked by score.\n\n*\ud83d\udccb Answered via structured query*\n\n\ud83d\udca1 **You might also like:** **Taxi Driver** (1976) \u2014 IMDB 8.3, Meta 94.0, **The Apartment** (1960) \u2014 IMDB 8.3, Meta 94.0, **Jodaeiye Nader az Simin** (2011) \u2014 IMDB 8.3, Meta 95.0",
+      "full_response": "Found **3** matching movies:\n| # | Title | Year | IMDB | Meta | Genre |\n|---|-------|------|------|------|-------|\n| 1 | Psycho | 1960 | 8.5 | 97.0 | Horror, Mystery, Thriller |\n| 2 | Rosemary's Baby | 1968 | 8.0 | 96.0 | Drama, Horror |\n| 3 | Alien | 1979 | 8.4 | 89.0 | Horror, Sci-Fi |\n\n**Gross Earnings:**\n- Psycho: $32,000,000\n- Alien: $78,900,000\n\n\n---\n**\ud83d\udd0d Reasoning:** Filtered 1,000 movies with criteria (genre=Horror, meta_score\u226585, imdb_rating\u22658). Found 3 matching results, ranked by score.\n\n*\ud83d\udccb Answered via structured query*\n\n\ud83d\udca1 **You might also like:** **Taxi Driver** (1976) \u2014 IMDB 8.3, Meta 94.0, **The Apartment** (1960) \u2014 IMDB 8.3, Meta 94.0, **Jodaeiye Nader az Simin** (2011) \u2014 IMDB 8.3, Meta 95.0"
+    },
+    {
+      "id": "Q5",
+      "question": "Top directors and their highest grossing movies with gross earnings of greater than 500M at least twice.",
+      "status": "PASS",
+      "query_type": "director_aggregation",
+      "expected_type": "director_aggregation",
+      "type_match": true,
+      "content_match": true,
+      "has_content": true,
+      "elapsed_seconds": 0.87,
+      "response_preview": "Found **2** directors with movies grossing over $500,000,000 at least 2 times:\n\n### \ud83c\udfac Anthony Russo (2 qualifying films)\n**Highest grossing:** Avengers: Endgame ($858,373,000)\n\n- Avengers: Endgame (2019) \u2014 $858,373,000\n- Avengers: Infinity War (2018) \u2014 $678,815,482\n\n### \ud83c\udfac James Cameron (2 qualifying films)\n**Highest grossing:** Avatar ($760,507,625)\n\n- Avatar (2009) \u2014 $760,507,625\n- Titanic (1997) \u2014 $659,325,379\n\n\n---\n**\ud83d\udd0d Reasoning:** Filtered movies with gross > $500,000,000, grouped by director, and selected directors with \u22652 qualifying films.\n\n*\ud83d\udccb Answered via structured query (director aggregation)*",
+      "full_response": "Found **2** directors with movies grossing over $500,000,000 at least 2 times:\n\n### \ud83c\udfac Anthony Russo (2 qualifying films)\n**Highest grossing:** Avengers: Endgame ($858,373,000)\n\n- Avengers: Endgame (2019) \u2014 $858,373,000\n- Avengers: Infinity War (2018) \u2014 $678,815,482\n\n### \ud83c\udfac James Cameron (2 qualifying films)\n**Highest grossing:** Avatar ($760,507,625)\n\n- Avatar (2009) \u2014 $760,507,625\n- Titanic (1997) \u2014 $659,325,379\n\n\n---\n**\ud83d\udd0d Reasoning:** Filtered movies with gross > $500,000,000, grouped by director, and selected directors with \u22652 qualifying films.\n\n*\ud83d\udccb Answered via structured query (director aggregation)*"
+    },
+    {
+      "id": "Q6",
+      "question": "Top 10 movies with over 1M votes but lower gross earnings.",
+      "status": "PASS",
+      "query_type": "structured",
+      "expected_type": "structured",
+      "type_match": true,
+      "content_match": true,
+      "has_content": true,
+      "elapsed_seconds": 0.91,
+      "response_preview": "Found **10** matching movies:\n| # | Title | Year | IMDB | Meta | Genre |\n|---|-------|------|------|------|-------|\n| 1 | American History X | 1998 | 8.5 | N/A | Drama |\n| 2 | L\u00c3\u00a9on | 1994 | 8.5 | N/A | Action, Crime, Drama |\n| 3 | Memento | 2000 | 8.4 | N/A | Mystery, Thriller |\n| 4 | The Shawshank Redemption | 1994 | 9.3 | N/A | Drama |\n| 5 | Fight Club | 1999 | 8.8 | N/A | Drama |\n| 6 | Goodfellas | 1990 | 8.7 | N/A | Biography, Crime, Drama |\n| 7 | The Prestige | 2006 | 8.5 | N/A | Drama, Mystery, Sci-Fi |\n| 8 | The Godfather: Part II | 1974 | 9.0 | N/A | Crime, Drama |\n| 9 | Kill Bill: Vol. 1 | 2003 | 8.1 | N/A | Action, Crime, Drama |\n| 10 | V for Vendetta | 2005 | 8.2 | N/A | Action, Drama, Sci-Fi |\n\n**Gross Earnings:**\n- American History X: $6,719,864\n- L\u00c3\u00a9on: $19,501,238\n- Memento: $25,544,867\n- The Shawshank Redemption: $28,341,469\n- Fight Club: $37,030,102\n- Goodfellas: $46,836,394\n- The Prestige: $53,089,891\n- The Godfather: Part II: $57,300,000\n- Kill Bill: Vol. 1: $70,099",
+      "full_response": "Found **10** matching movies:\n| # | Title | Year | IMDB | Meta | Genre |\n|---|-------|------|------|------|-------|\n| 1 | American History X | 1998 | 8.5 | N/A | Drama |\n| 2 | L\u00c3\u00a9on | 1994 | 8.5 | N/A | Action, Crime, Drama |\n| 3 | Memento | 2000 | 8.4 | N/A | Mystery, Thriller |\n| 4 | The Shawshank Redemption | 1994 | 9.3 | N/A | Drama |\n| 5 | Fight Club | 1999 | 8.8 | N/A | Drama |\n| 6 | Goodfellas | 1990 | 8.7 | N/A | Biography, Crime, Drama |\n| 7 | The Prestige | 2006 | 8.5 | N/A | Drama, Mystery, Sci-Fi |\n| 8 | The Godfather: Part II | 1974 | 9.0 | N/A | Crime, Drama |\n| 9 | Kill Bill: Vol. 1 | 2003 | 8.1 | N/A | Action, Crime, Drama |\n| 10 | V for Vendetta | 2005 | 8.2 | N/A | Action, Drama, Sci-Fi |\n\n**Gross Earnings:**\n- American History X: $6,719,864\n- L\u00c3\u00a9on: $19,501,238\n- Memento: $25,544,867\n- The Shawshank Redemption: $28,341,469\n- Fight Club: $37,030,102\n- Goodfellas: $46,836,394\n- The Prestige: $53,089,891\n- The Godfather: Part II: $57,300,000\n- Kill Bill: Vol. 1: $70,099,045\n- V for Vendetta: $70,511,035\n\n> \u2139\ufe0f Sorted by lowest gross earnings first (sleeper hits with high engagement).\n\n---\n**\ud83d\udd0d Reasoning:** Filtered 1,000 movies with criteria (none). Found 0 matching results, ranked by score.\n\n*\ud83d\udccb Answered via structured query*\n\n\ud83d\udca1 **You might also like:** **Avengers: Infinity War** (2018) \u2014 IMDB 8.4, Meta 68.0, **Good Will Hunting** (1997) \u2014 IMDB 8.3, Meta 70.0, **Inglourious Basterds** (2009) \u2014 IMDB 8.3, Meta 69.0"
+    },
+    {
+      "id": "Q7",
+      "question": "List of movies from the comedy genre where there is death or dead people involved.",
+      "status": "PASS",
+      "query_type": "semantic",
+      "expected_type": "semantic",
+      "type_match": true,
+      "content_match": true,
+      "has_content": true,
+      "elapsed_seconds": 1.11,
+      "response_preview": "Found **10** movies based on plot similarity:\n\n**1. Evil Dead II** (1987) \u2014 Action, Comedy, Fantasy\n   *Similarity: 0.28*\n   The lone survivor of an onslaught of flesh-possessing spirits holes up in a cabin with a group of strangers while the demons continue their attack.\n\n**2. Harold and Maude** (1971) \u2014 Comedy, Drama, Romance\n   *Similarity: 0.25*\n   Young, rich, and obsessed with death, Harold finds himself changed forever when he meets lively septuagenarian Maude at a funeral.\n\n**3. Knockin' on Heaven's Door** (1997) \u2014 Action, Crime, Comedy\n   *Similarity: 0.24*\n   Two terminally ill patients escape from a hospital, steal a car and rush towards the sea.\n\n**4. Soul** (2020) \u2014 Animation, Adventure, Comedy\n   *Similarity: 0.23*\n   After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.\n\n**5. Me and Earl and the Dying Girl** (2015) \u2014 Comedy, Drama\n   *Similarity: 0.23*\n   High schooler Greg, who spen",
+      "full_response": "Found **10** movies based on plot similarity:\n\n**1. Evil Dead II** (1987) \u2014 Action, Comedy, Fantasy\n   *Similarity: 0.28*\n   The lone survivor of an onslaught of flesh-possessing spirits holes up in a cabin with a group of strangers while the demons continue their attack.\n\n**2. Harold and Maude** (1971) \u2014 Comedy, Drama, Romance\n   *Similarity: 0.25*\n   Young, rich, and obsessed with death, Harold finds himself changed forever when he meets lively septuagenarian Maude at a funeral.\n\n**3. Knockin' on Heaven's Door** (1997) \u2014 Action, Crime, Comedy\n   *Similarity: 0.24*\n   Two terminally ill patients escape from a hospital, steal a car and rush towards the sea.\n\n**4. Soul** (2020) \u2014 Animation, Adventure, Comedy\n   *Similarity: 0.23*\n   After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.\n\n**5. Me and Earl and the Dying Girl** (2015) \u2014 Comedy, Drama\n   *Similarity: 0.23*\n   High schooler Greg, who spends most of his time making parodies of classic movies with his co-worker Earl, finds his outlook forever altered after befriending a classmate who has just been diagnosed w...\n\n**6. Deadpool** (2016) \u2014 Action, Adventure, Comedy\n   *Similarity: 0.22*\n   A wisecracking mercenary gets experimented on and becomes immortal but ugly, and sets out to track down the man who ruined his looks.\n\n**7. T\u00c3\u00b4ky\u00c3\u00b4 goddof\u00c3\u00a2z\u00c3\u00a2zu** (2003) \u2014 Animation, Adventure, Comedy\n   *Similarity: 0.21*\n   On Christmas Eve, three homeless people living on the streets of Tokyo discover a newborn baby among the trash and set out to find its parents.\n\n**8. Love and Death** (1975) \u2014 Comedy, War\n   *Similarity: 0.20*\n   In czarist Russia, a neurotic soldier and his distant cousin formulate a plot to assassinate Napoleon.\n\n**9. Night on Earth** (1991) \u2014 Comedy, Drama\n   *Similarity: 0.20*\n   An anthology of 5 different cab drivers in 5 American and European cities and their remarkable fares on the same eventful night.\n\n**10. Shaun of the Dead** (2004) \u2014 Comedy, Horror\n   *Similarity: 0.20*\n   A man's uneventful life is disrupted by the zombie apocalypse.\n\n> \u26a0\ufe0f These results are based on plot similarity and may not be exact matches.\n\n---\n**\ud83d\udd0d Reasoning:** Performed semantic similarity search on movie plot overviews. Found 10 relevant matches using embedding-based retrieval.\n\n*\ud83d\udd0d Answered via semantic retrieval*\n\n\ud83d\udca1 **You might also like:** **Thor: Ragnarok** (2017) \u2014 IMDB 7.9, Meta 74.0, **Edward Scissorhands** (1990) \u2014 IMDB 7.9, Meta 74.0, **Hidden Figures** (2016) \u2014 IMDB 7.8, Meta 74.0"
+    },
+    {
+      "id": "Q8",
+      "question": "Summarize the movie plots of Steven Spielberg's top-rated sci-fi movies.",
+      "status": "PASS",
+      "query_type": "hybrid",
+      "expected_type": "hybrid",
+      "type_match": true,
+      "content_match": true,
+      "has_content": true,
+      "elapsed_seconds": 5.07,
+      "response_preview": "Found **3** matching movies:\n\n**1. Jurassic Park** (1993)\n**2. E.T. the Extra-Terrestrial** (1982)\n**3. Close Encounters of the Third Kind** (1977)\n\n**Plot Summaries:**\n\n**Jurassic Park** (1993): In this groundbreaking sci-fi thriller, a paleontologist visits a dinosaur theme park that becomes a deadly nightmare when the power fails, releasing cloned dinosaurs. Key themes include the ethical implications of genetic engineering and humanity's hubris. Notable for its pioneering visual effects and suspenseful storytelling, it redefined the adventure genre and sparked discussions about science and morality.\n\n**E.T. the Extra-Terrestrial** (1982): This heartwarming tale follows a young boy, Elliott, who befriends a stranded alien and helps him evade government capture to return home. Key themes include friendship, innocence, and the power of love. Notable for its emotional depth, iconic imagery, and John Williams' memorable score, it became a cultural phenomenon and is celebrated as one of ",
+      "full_response": "Found **3** matching movies:\n\n**1. Jurassic Park** (1993)\n**2. E.T. the Extra-Terrestrial** (1982)\n**3. Close Encounters of the Third Kind** (1977)\n\n**Plot Summaries:**\n\n**Jurassic Park** (1993): In this groundbreaking sci-fi thriller, a paleontologist visits a dinosaur theme park that becomes a deadly nightmare when the power fails, releasing cloned dinosaurs. Key themes include the ethical implications of genetic engineering and humanity's hubris. Notable for its pioneering visual effects and suspenseful storytelling, it redefined the adventure genre and sparked discussions about science and morality.\n\n**E.T. the Extra-Terrestrial** (1982): This heartwarming tale follows a young boy, Elliott, who befriends a stranded alien and helps him evade government capture to return home. Key themes include friendship, innocence, and the power of love. Notable for its emotional depth, iconic imagery, and John Williams' memorable score, it became a cultural phenomenon and is celebrated as one of the greatest family films.\n\n**Close Encounters of the Third Kind** (1977): The film tells the story of Roy Neary, whose life changes dramatically after a UFO encounter, leading him to seek the truth about extraterrestrial life. Key themes include human curiosity, communication, and the quest for understanding. Notable for its innovative special effects, thought-provoking narrative, and the use of music as a universal language, it remains a landmark in sci-fi cinema.\n\n---\n**\ud83d\udd0d Reasoning:** Combined structured filtering (director/genre) with semantic retrieval and LLM summarization to provide plot summaries.\n\n*\ud83d\udd04 Answered via hybrid flow (structured filter + semantic/LLM)*\n\n\ud83d\udca1 **You might also like:** **Kaze tachinu** (2013) \u2014 IMDB 7.8, Meta 83.0, **Avatar** (2009) \u2014 IMDB 7.8, Meta 83.0, **Waking Life** (2001) \u2014 IMDB 7.8, Meta 83.0"
+    },
+    {
+      "id": "Q9",
+      "question": "List of movies before 1990 that have involvement of police in the plot",
+      "status": "PASS",
+      "query_type": "semantic",
+      "expected_type": "semantic",
+      "type_match": true,
+      "content_match": true,
+      "has_content": true,
+      "elapsed_seconds": 0.83,
+      "response_preview": "Found **10** movies based on plot similarity:\n\n**1. Serpico** (1973) \u2014 Biography, Crime, Drama\n   *Similarity: 0.30*\n   An honest New York cop named Frank Serpico blows the whistle on rampant corruption in the force only to have his comrades turn against him.\n\n**2. Chinatown** (1974) \u2014 Drama, Mystery, Thriller\n   *Similarity: 0.28*\n   A private detective hired to expose an adulterer finds himself caught up in a web of deceit, corruption, and murder.\n\n**3. In the Heat of the Night** (1967) \u2014 Crime, Drama, Mystery\n   *Similarity: 0.27*\n   A black police detective is asked to investigate a murder in a racially hostile southern town.\n\n**4. Dirty Harry** (1971) \u2014 Action, Crime, Thriller\n   *Similarity: 0.27*\n   When a madman calling himself \"the Scorpio Killer\" menaces the city, tough-as-nails San Francisco Police Inspector \"Dirty\" Harry Callahan is assigned to track down and ferret out the crazed psychopath...\n\n**5. Touch of Evil** (1958) \u2014 Crime, Drama, Film-Noir\n   *Similarity: 0.26*\n   ",
+      "full_response": "Found **10** movies based on plot similarity:\n\n**1. Serpico** (1973) \u2014 Biography, Crime, Drama\n   *Similarity: 0.30*\n   An honest New York cop named Frank Serpico blows the whistle on rampant corruption in the force only to have his comrades turn against him.\n\n**2. Chinatown** (1974) \u2014 Drama, Mystery, Thriller\n   *Similarity: 0.28*\n   A private detective hired to expose an adulterer finds himself caught up in a web of deceit, corruption, and murder.\n\n**3. In the Heat of the Night** (1967) \u2014 Crime, Drama, Mystery\n   *Similarity: 0.27*\n   A black police detective is asked to investigate a murder in a racially hostile southern town.\n\n**4. Dirty Harry** (1971) \u2014 Action, Crime, Thriller\n   *Similarity: 0.27*\n   When a madman calling himself \"the Scorpio Killer\" menaces the city, tough-as-nails San Francisco Police Inspector \"Dirty\" Harry Callahan is assigned to track down and ferret out the crazed psychopath...\n\n**5. Touch of Evil** (1958) \u2014 Crime, Drama, Film-Noir\n   *Similarity: 0.26*\n   A stark, perverse story of murder, kidnapping, and police corruption in a Mexican border town.\n\n**6. Tengoku to jigoku** (1963) \u2014 Crime, Drama, Mystery\n   *Similarity: 0.26*\n   An executive of a shoe company becomes a victim of extortion when his chauffeur's son is kidnapped and held for ransom.\n\n**7. The French Connection** (1971) \u2014 Action, Crime, Drama\n   *Similarity: 0.26*\n   A pair of NYC cops in the Narcotics Bureau stumble onto a drug smuggling job with a French connection.\n\n**8. The Naked Gun: From the Files of Police Squad!** (1988) \u2014 Comedy, Crime\n   *Similarity: 0.26*\n   Incompetent police Detective Frank Drebin must foil an attempt to assassinate Queen Elizabeth II.\n\n**9. The Taking of Pelham One Two Three** (1974) \u2014 Action, Crime, Thriller\n   *Similarity: 0.25*\n   In New York, armed men hijack a subway car and demand a ransom for the passengers. Even if it's paid, how could they get away?\n\n**10. Laura** (1944) \u2014 Drama, Film-Noir, Mystery\n   *Similarity: 0.25*\n   A police detective falls in love with the woman whose murder he is investigating.\n\n> \u26a0\ufe0f These results are based on plot similarity and may not be exact matches.\n\n---\n**\ud83d\udd0d Reasoning:** Performed semantic similarity search on movie plot overviews. Found 10 relevant matches using embedding-based retrieval.\n\n*\ud83d\udd0d Answered via semantic retrieval*\n\n\ud83d\udca1 **You might also like:** **Ying xiong** (2002) \u2014 IMDB 7.9, Meta 85.0, **Mulholland Dr.** (2001) \u2014 IMDB 7.9, Meta 85.0, **Boogie Nights** (1997) \u2014 IMDB 7.9, Meta 85.0"
+    },
+    {
+      "id": "NH1",
+      "question": "List of Al Pacino movies that have grossed over $50M and IMDB rating of 8 or higher.",
+      "status": "PASS",
+      "query_type": "clarification",
+      "expected_type": "clarification",
+      "type_match": true,
+      "content_match": true,
+      "has_content": true,
+      "elapsed_seconds": 1.16,
+      "response_preview": "\ud83e\udd14 **Clarification needed:**\n\nAre you looking for movies where Al Pacino is the lead actor (Star1), or any movie where Al Pacino has appeared (lead or supporting)?\n\nOptions:\n1. Movies where Al Pacino is the lead actor\n2. Any movie featuring Al Pacino (lead or supporting)\n",
+      "full_response": "\ud83e\udd14 **Clarification needed:**\n\nAre you looking for movies where Al Pacino is the lead actor (Star1), or any movie where Al Pacino has appeared (lead or supporting)?\n\nOptions:\n1. Movies where Al Pacino is the lead actor\n2. Any movie featuring Al Pacino (lead or supporting)\n"
+    }
+  ]
+}

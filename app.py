@@ -142,7 +142,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
         # Show audio playback if stored
         if message.get("audio"):
-            st.audio(message["audio"], format="audio/mp3")
+            st.audio(message["audio"], format="audio/mpeg")
 
 # Handle sample prompt from sidebar
 if "sample_prompt" in st.session_state and st.session_state.sample_prompt:
@@ -186,7 +186,7 @@ if "sample_prompt" in st.session_state and st.session_state.sample_prompt:
                     if spoken:
                         audio_bytes = text_to_speech(spoken)
                         if audio_bytes:
-                            st.audio(audio_bytes, format="audio/mp3")
+                            st.audio(audio_bytes, format="audio/mpeg")
                             msg["audio"] = audio_bytes
 
                 st.session_state.messages.append(msg)
@@ -242,7 +242,7 @@ if st.session_state.voice_enabled:
                             if spoken:
                                 audio_out = text_to_speech(spoken)
                                 if audio_out:
-                                    st.audio(audio_out, format="audio/mp3")
+                                    st.audio(audio_out, format="audio/mpeg")
                                     msg["audio"] = audio_out
 
                             st.session_state.messages.append(msg)
@@ -292,7 +292,7 @@ if prompt := st.chat_input("Ask me about movies..."):
                     if spoken:
                         audio_bytes = text_to_speech(spoken)
                         if audio_bytes:
-                            st.audio(audio_bytes, format="audio/mp3")
+                            st.audio(audio_bytes, format="audio/mpeg")
                             msg["audio"] = audio_bytes
 
                 st.session_state.messages.append(msg)
